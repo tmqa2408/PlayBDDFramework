@@ -6,3 +6,10 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+/lighthouse-reports/*
+/allure-results/*
+/cucumber-html-report/*
+.features-gen/*
+cucumber-report/index.html
+cucumber-report/results.json
+lighthouse-reports-function toString() { \[native code] }/Lighthouse Report.html
