@@ -10,6 +10,9 @@ node_modules/
 /allure-results/*
 /cucumber-html-report/*
 /.features-gen/*
-cucumber-report/index.html
-cucumber-report/results.json
+/cucumber-report/*
+/cucumber-report/results.json
+/lighthouse-reports-function toString() { \[native code] }/Lighthouse Report.html
 lighthouse-reports-function toString() { \[native code] }/Lighthouse Report.html
+cucumber-report/results.json
+cucumber-report/index.html
