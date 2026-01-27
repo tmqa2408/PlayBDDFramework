@@ -4,6 +4,87 @@
     "elements": [
       {
         "description": "",
+        "id": "accessibility-testing-on-the-home-page;verify-accessibility-of-the-home-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify accessibility of the home page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify accessibility results for the home page",
+            "result": {
+              "status": "passed",
+              "duration": 414000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility"
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "chromium-›-accessibility-testing-on-the-home-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Accessibility testing on the home page",
+    "tags": [],
+    "uri": "tests/A11y/features/a11y_home.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "home-page-validation;verify-accessibility-of-the-home-page",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify accessibility of the home page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I verify accessibility results for the home page",
+            "result": {
+              "status": "passed",
+              "duration": 412000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
         "id": "home-page-validation;verify-elements-of-the-home-page",
         "keyword": "Scenario",
         "line": 4,
@@ -16,7 +97,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 2234000000
+              "duration": 2707000000
             }
           },
           {
@@ -26,7 +107,7 @@
             "name": "I should see the logo at the top",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 22000000
             }
           },
           {
@@ -36,7 +117,7 @@
             "name": "I should see the Computers menu",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 7000000
             }
           },
           {
@@ -56,7 +137,7 @@
             "name": "I should see the Apparel menu",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           },
           {
@@ -66,7 +147,7 @@
             "name": "I should see the Welcome to our store title",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 2000000
             }
           },
           {
@@ -76,7 +157,7 @@
             "name": "I should see the search field",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 5000000
             }
           },
           {
@@ -109,41 +190,6 @@
           }
         ],
         "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "home-page-validation;verify-accessibility-of-the-home-page",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "Verify accessibility of the home page",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 16,
-            "name": "I navigate to the home page",
-            "result": {
-              "status": "passed",
-              "duration": 5572000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 17,
-            "name": "I verify accessibility results for the home page",
-            "result": {
-              "status": "passed",
-              "duration": 365000000
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@accessibility"
-          }
-        ],
-        "type": "scenario"
       }
     ],
     "id": "chromium-›-home-page-validation",
@@ -158,84 +204,6 @@
     "elements": [
       {
         "description": "",
-        "id": "login/logout-page-validation;verify-login-with-valid-credentials",
-        "keyword": "Scenario",
-        "line": 5,
-        "name": "Verify login with valid credentials",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "I navigate to login page",
-            "result": {
-              "status": "passed",
-              "duration": 1578000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "I verify that login page is displayed",
-            "result": {
-              "status": "passed",
-              "duration": 29000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "I login with valid email",
-            "result": {
-              "status": "passed",
-              "duration": 12000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "I enter valid password",
-            "result": {
-              "status": "passed",
-              "duration": 40000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "I click on login button",
-            "result": {
-              "status": "passed",
-              "duration": 371000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "verify that the login is success",
-            "result": {
-              "status": "passed",
-              "duration": 19000000
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@login"
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
         "id": "login/logout-page-validation;verify-login-with-invalid-credentials",
         "keyword": "Scenario",
         "line": 14,
@@ -248,7 +216,7 @@
             "name": "I navigate to login page",
             "result": {
               "status": "passed",
-              "duration": 4336000000
+              "duration": 1186000000
             }
           },
           {
@@ -278,7 +246,7 @@
             "name": "I click on login button",
             "result": {
               "status": "passed",
-              "duration": 163000000
+              "duration": 156000000
             }
           },
           {
@@ -288,13 +256,91 @@
             "name": "verify that the login is unsuccessful",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 16000000
             }
           }
         ],
         "tags": [
           {
             "name": "@regression"
+          },
+          {
+            "name": "@login"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login/logout-page-validation;verify-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify login with valid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to login page",
+            "result": {
+              "status": "passed",
+              "duration": 2210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify that login page is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I login with valid email",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter valid password",
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "verify that the login is success",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
           },
           {
             "name": "@login"
@@ -315,52 +361,6 @@
     "elements": [
       {
         "description": "",
-        "id": "accessibility-testing-on-the-home-page;verify-accessibility-of-the-home-page",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "Verify accessibility of the home page",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I navigate to the home page",
-            "result": {
-              "status": "passed",
-              "duration": 5773000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "I verify accessibility results for the home page",
-            "result": {
-              "status": "passed",
-              "duration": 365000000
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@accessibility"
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "chromium-›-accessibility-testing-on-the-home-page",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Accessibility testing on the home page",
-    "tags": [],
-    "uri": "tests/A11y/features/a11y_home.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
         "id": "cart-page-validation;verify-user-can-add-item-to-cart",
         "keyword": "Scenario",
         "line": 4,
@@ -373,7 +373,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 5980000000
+              "duration": 1493000000
             }
           },
           {
@@ -383,7 +383,7 @@
             "name": "I verify the shopping cart is empty",
             "result": {
               "status": "passed",
-              "duration": 27000000
+              "duration": 47000000
             }
           },
           {
@@ -393,7 +393,7 @@
             "name": "I navigate to the cart page",
             "result": {
               "status": "passed",
-              "duration": 571000000
+              "duration": 1019000000
             }
           },
           {
@@ -403,7 +403,7 @@
             "name": "I should see the message \"Your Shopping Cart is empty!\"",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 12000000
             }
           },
           {
@@ -413,7 +413,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 121000000
+              "duration": 113000000
             }
           },
           {
@@ -423,7 +423,7 @@
             "name": "I click AddToCart button for HTC One M8 Android",
             "result": {
               "status": "passed",
-              "duration": 65000000
+              "duration": 69000000
             }
           },
           {
@@ -433,7 +433,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 158000000
+              "duration": 172000000
             }
           },
           {
@@ -453,7 +453,7 @@
             "name": "I navigate to the cart page",
             "result": {
               "status": "passed",
-              "duration": 424000000
+              "duration": 553000000
             }
           },
           {
@@ -463,7 +463,7 @@
             "name": "I delete M8_HTC_5L Picture of HTC One from the cart",
             "result": {
               "status": "passed",
-              "duration": 126000000
+              "duration": 128000000
             }
           },
           {
@@ -473,7 +473,7 @@
             "name": "I verify the shopping cart is empty",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 13000000
             }
           }
         ],
@@ -509,7 +509,7 @@
             "name": "I navigate to the home page",
             "result": {
               "status": "passed",
-              "duration": 8058000000
+              "duration": 1439000000
             }
           },
           {
@@ -519,7 +519,7 @@
             "name": "I verify Lighthouse results for the home page",
             "result": {
               "status": "passed",
-              "duration": 10394000000
+              "duration": 12360000000
             }
           },
           {
@@ -527,7 +527,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 69000000
             },
             "embeddings": [
               {
