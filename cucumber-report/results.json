@@ -1,0 +1,555 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "home-page-validation;verify-elements-of-the-home-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify elements of the home page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the logo at the top",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the Computers menu",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the Electronics menu",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the Apparel menu",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the Welcome to our store title",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the search field",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the search button",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the Featured products section",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homepage"
+          },
+          {
+            "name": "@regression"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page-validation;verify-accessibility-of-the-home-page",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify accessibility of the home page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 5572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I verify accessibility results for the home page",
+            "result": {
+              "status": "passed",
+              "duration": 365000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility"
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "chromium-›-home-page-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Home Page validation",
+    "tags": [],
+    "uri": "tests/UI_Test/features/homepade.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login/logout-page-validation;verify-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify login with valid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1578000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify that login page is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I login with valid email",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter valid password",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "verify that the login is success",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@login"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login/logout-page-validation;verify-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify login with invalid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I navigate to login page",
+            "result": {
+              "status": "passed",
+              "duration": 4336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I verify that login page is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I login with valid email",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "verify that the login is unsuccessful",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@login"
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "chromium-›-login/logout-page-validation",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login/Logout page validation",
+    "tags": [],
+    "uri": "tests/UI_Test/features/login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "accessibility-testing-on-the-home-page;verify-accessibility-of-the-home-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify accessibility of the home page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 5773000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify accessibility results for the home page",
+            "result": {
+              "status": "passed",
+              "duration": 365000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility"
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "chromium-›-accessibility-testing-on-the-home-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Accessibility testing on the home page",
+    "tags": [],
+    "uri": "tests/A11y/features/a11y_home.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cart-page-validation;verify-user-can-add-item-to-cart",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify user can add item to cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 5980000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify the shopping cart is empty",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I navigate to the cart page",
+            "result": {
+              "status": "passed",
+              "duration": 571000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the message \"Your Shopping Cart is empty!\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click AddToCart button for HTC One M8 Android",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the cart item count should be \"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I navigate to the cart page",
+            "result": {
+              "status": "passed",
+              "duration": 424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I delete M8_HTC_5L Picture of HTC One from the cart",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I verify the shopping cart is empty",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart"
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "chromium-›-cart-page-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Cart Page validation",
+    "tags": [],
+    "uri": "tests/UI_Test/features/cart.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "accessibility-lighthouse-on-the-home-page;verify-accessibility-of-the-home-page-through-lighthouse",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify accessibility of the home page through Lighthouse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 8058000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify Lighthouse results for the home page",
+            "result": {
+              "status": "passed",
+              "duration": 10394000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            },
+            "embeddings": [
+              {
+                "data": "CgotLS0tLS0tLSBwbGF5d3JpZ2h0IGxpZ2h0aG91c2UgYXVkaXQgcmVwb3J0cyAtLS0tLS0tLQoKCnBlcmZvcm1hbmNlIHJlY29yZCBpcyA5NiBhbmQgZGVzaXJlZCB0aHJlc2hvbGQgd2FzIDkwCmFjY2Vzc2liaWxpdHkgcmVjb3JkIGlzIDk2IGFuZCBkZXNpcmVkIHRocmVzaG9sZCB3YXMgOTAKc2VvIHJlY29yZCBpcyAxMDAgYW5kIGRlc2lyZWQgdGhyZXNob2xkIHdhcyA5MAo=",
+                "mime_type": "text/x.cucumber.log+plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accessibility"
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "chromium-›-accessibility-lighthouse-on-the-home-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Accessibility Lighthouse on the home page",
+    "tags": [],
+    "uri": "tests/A11y/features/lighthouseHome.feature"
+  }
+]

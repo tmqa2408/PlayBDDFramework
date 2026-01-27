@@ -1,0 +1,8 @@
+playwright-lighthouse-audit It looks like you have not set thresholds yet. The test will be based on the 100 score for every metrics. Refer to https://github.com/abhinaba-ghosh/playwright-lighthouse to have more information and set thresholds by yourself :).
+
+
+-------- playwright lighthouse audit reports --------
+
+
+seo record is 100 and desired threshold was 100
+pwa record is undefined and desired threshold was 100

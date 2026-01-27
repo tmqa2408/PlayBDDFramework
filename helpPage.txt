@@ -1,0 +1,12 @@
+
+npx bddgen
+rm -rf .features-gen // for deleting features-gen folder
+npm run test             
+npx bddgen && npx playwright test --debug
+npx bddgen && npx playwright test --ui
+allure serve allure-results
+npx ts-node generateReport.ts  
+npx playwright test --grep "@regression"
+npx bddgen --tags "@smoke" && npx playwright test
+npx bddgen && npx playwright test --grep "@smoke"
+npx playwright test --grep "@smoke" --headed
