@@ -35,7 +35,7 @@ Then('I verify Lighthouse results for the home page', async ({}) => {
     reports: {
       "formats": {"html": true},
       name: "Lighthouse Report",
-      directory: "lighthouse-reports-" + Date.now().toString
+      directory: "a11y_result/lighthouse-reports-" + Date.now().toString
     }
   });
 
