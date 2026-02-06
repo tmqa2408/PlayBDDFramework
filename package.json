@@ -14,7 +14,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@axe-core/playwright": "^4.11.0",
-    "@playwright/test": "^1.57.0",
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.58.1",
     "@types/node": "^25.0.8",
     "allure-playwright": "^3.4.5",
     "dotenv": "^17.2.3",
