@@ -14,7 +14,8 @@ When('I navigate to the cart page', async ({ page }) => {
 });
 
 Then('I should see the message {string}', async ({ page }, arg: string) => {
-  await expect(page.getByText('Your Shopping Cart is empty!')).toContainText(
+  await expect(page.locator(".no-data")).toBeVisible();
+  await expect(page.locator(".no-data")).toContainText(
     arg
   );
 });
